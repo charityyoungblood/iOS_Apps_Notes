@@ -26,4 +26,5 @@ Tools Needed:
 14. Another pop up window will appear in XCode, after build, "Could not launch" > Click ok to dismiss alert
 15. On your iPhone, select and run app
 16. On your iPhone, select Settings > General > Device Management > Developer App > click on blue "trust"
-17. 
+17. Go back to XCode, make sure your device is selected at top left, then click run
+18. If any errors, pop up windows come up, first trouble shoot by unplugging USB from laptop, closing XCode, then relaunching 
