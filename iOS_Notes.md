@@ -39,5 +39,7 @@
       - to disable the breakpoint, click on the line number 
 9. Debug Pane - when selected, the debugger shows up on bottom of screen
     - if you have debugged on your own for 15 minutes and cannot figure out why you are receiving error(s) - paste the right side of code (errors) onto the Q&A of iOS course page and someone will assist you with debugging 
-10. Utilities Pane - top right of screen next to debug pane     
+10. Utilities Pane - top right of screen next to debug pane 
+    - Main.storyborad
+    - Object Library: this is selected by default 
 
