@@ -20,7 +20,10 @@ Tools Needed:
 8. Connect your iPhone device to the laptop via USB > To make sure you have the right device selected, click on Product tab > Destination drop down menu > Select your device 
 9. In top status bar, next to Run button, you should see your project name, followed by your device name
 10. Click Run
-11. When pop up window comes up "code sign" - use the password for your Mac Laptop (admin password)
+11. When pop up window comes up "code sign", or Mac OS wants to make changes or keychain - use the password for your Mac Laptop (admin password)
 12. ***IMPORTANT: ALWAYS ALLOW - NEVER SELECT DENY**
-13. Another pop up window will appear in XCode, after build, "Could not locate device support files" > Click ok to dismiss alert
-14. In XCode, 
+13. Make sure your iPhone is unlocked, then select Run in XCode
+14. Another pop up window will appear in XCode, after build, "Could not launch" > Click ok to dismiss alert
+15. On your iPhone, select and run app
+16. On your iPhone, select Settings > General > Device Management > Developer App > click on blue "trust"
+17. 
