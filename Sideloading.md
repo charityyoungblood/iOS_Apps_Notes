@@ -15,4 +15,9 @@ Tools Needed:
 3. In General tab - make sure you have the Bundle Identifier field filled in (i.e. com.charityyounblood.projectname)
 4. In Signing field, below Identity - make sure that "Automatically manage signing" button is checked 
 5. Select the Team drop down menu > select add account > this will take you to your Sign In for iCloud > enter log in credentials
-6. 
+6. This will take you to the accounts menu > close window
+7. In Team drop down menu > select Charity Youngblood 
+8. Connect your iPhone device to the laptop via USB > To make sure you have the right device selected, click on Product tab > Destination drop down menu > Select your device 
+9. In top status bar, next to Run button, you should see your project name, followed by your device name
+10. Click Run
+
