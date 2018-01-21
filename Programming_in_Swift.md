@@ -22,4 +22,7 @@
 
     fibonacci(userInput: 5)
     
-3. Tags in Storyboards - tags are useful when you are grouping information 
+3. Tags in Storyboards - tags are useful when you are grouping data (i.e. buttons)
+
+    - tag is a property that you can "call" on the button object
+
