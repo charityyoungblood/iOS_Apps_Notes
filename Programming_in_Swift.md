@@ -21,3 +21,5 @@
       }
 
     fibonacci(userInput: 5)
+    
+3. Tags in Storyboards - tags are useful when you are grouping information 
