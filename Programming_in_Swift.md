@@ -28,9 +28,15 @@
     
 4. To add a file in Swift, select folder > right click > select "new file" > make sure group is the correct folder, target should be the current project 
 
-5. Methods - a method is a function that is associated with a class (i.e. if it's within the curly braces/body of a class it's considered a method)
-6. Functions - are not associated with a class 
-7. In Swift Objects have:
- - properties - set or initialize the properties
+5. Methods vs Functions
+  - when a method is created "inside" of a class (class body) it is called a "method" (i.e. if it's within the curly braces/body of a class it's considered a method)
+  - when a method is created "outside" of a class (outside of the class body) it is called a function 
+  
+6. In Swift Objects have:
+ - Properties - set or initialize the properties
  - actions - what should happen in respond to events 
  - events - how should the object act in certain events (onStart, shake, etc) 
+ 
+8. Properties vs Variables/Constants
+  - when constants or variables are created inside of a class, they are called properties 
+  - when constants or variables are created outside of a class, they are referred to as constants and variables
