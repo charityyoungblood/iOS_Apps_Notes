@@ -9,3 +9,15 @@
         }
 
     calculateBMI(height: 4, weight: 73)
+    
+2. In order for function to run, you have to enter all information including return value data type, and explicity use return keyword 
+
+    Ex: //create a function that prints out all of the Fibonacci numbers, in sequence, until the user input is reached
+
+    func fibonacci(userInput: Int) -> Int {
+    var fibonnaciStart = 0
+    var fibonnaciNext = fibonnaciStart + 1
+    return fibonnaciStart + fibonnaciNext
+      }
+
+    fibonacci(userInput: 5)
