@@ -30,3 +30,7 @@
 
 5. Methods - a method is a function that is associated with a class (i.e. if it's within the curly braces/body of a class it's considered a method)
 6. Functions - are not associated with a class 
+7. In Swift Objects have:
+ - properties - set or initialize the properties
+ - actions - what should happen in respond to events 
+ - events - how should the object act in certain events (onStart, shake, etc) 
