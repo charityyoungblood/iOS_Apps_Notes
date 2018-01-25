@@ -3,22 +3,35 @@
 There are two ways to make sure your app will display the same on any screen size 
 
   1. Programmatically 
-    - In the override func viewDidLoad() or func viewDidLoad() 
-      - use UIView class
+  
+    - Determine the width and the height of the screen
+      - x = self.view.frame.width / 2
+          // self is the current view controller, current class you are in 
+          // view 
+          // frame
+          // width 
+      - y = 
+      - width = 
+      - height = 
+    
+    ** If you only want to change the UIView for a specific screen size (i.e. iPhone 7) follow the steps below***
+    
+        - In the override func viewDidLoad() or func viewDidLoad() 
+        - use UIView class
       
           Ex: override func viewDidLoad() {
               let square = UIView(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
             }
             
-    - by default, UIView is transparent - so in order to see it, you'll need to change the background color 
-         Ex: override func viewDidLoad() {
+        - by default, UIView is transparent - so in order to see it, you'll need to change the background color 
+          Ex: override func viewDidLoad() {
              let square = UIView(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
              square.backgroundColor = UIColor.red
              self.view.addSubview(square)
             }
             
     - Remember, when we specify positioning, we are referring to the coordinates of the top left corner of the rectangle or square 
-  
+    
   
   2. Using Auto Layout   
   2. Using Auto Layout   
