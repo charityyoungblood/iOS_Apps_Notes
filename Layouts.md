@@ -54,6 +54,10 @@ There are two ways to make sure your app will display the same on any screen siz
       
       d. Click on the drop down menu for the number on top > select "View (current distance = some value)"
       
-      e. 
+      e. Click on the drop down menu for the number on the bottom > select "View (current distance = some value)"
+      
+      f. To activate the left and right constraints, click on the bars next to the number on the left and the right 
+      
+      g. Select "Add 4 constraints" on the bottom to save 
       
    
