@@ -41,4 +41,5 @@ There are two ways to make sure your app will display the same on any screen siz
     
   
   2. Using Auto Layout   
-  2. Using Auto Layout   
+    - Pinning - also uses same four properties - x, y, width, height 
+    - Aligning 
