@@ -42,4 +42,26 @@ There are two ways to make sure your app will display the same on any screen siz
   
   2. Using Auto Layout   
     - Pinning - also uses same four properties - x, y, width, height 
+<<<<<<< HEAD
     - Aligning 
+=======
+    - Aligning 
+  
+    ** Steps ** 
+    
+      a. Highlight/select image to be edited 
+      
+      b. Click on "Add New Contraints button, located on bottom far right of screen, next to where you would enter a search term for UIview or label ( button icon looks like a square between two poles)
+      
+      c. Deselect "Constrain to margins" - this means, instead of sending constraints to the margin of the screen we want to set it to the edges of the screen 
+      
+      d. Click on the drop down menu for the number on top > select "View (current distance = some value)"
+      
+      e. Click on the drop down menu for the number on the bottom > select "View (current distance = some value)"
+      
+      f. To activate the left and right constraints, click on the bars next to the number on the left and the right 
+      
+      g. Select "Add 4 constraints" on the bottom to save 
+      
+   
+>>>>>>> aae126215cc3b0745655284414a05317d12a86f9

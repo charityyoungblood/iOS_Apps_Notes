@@ -10,4 +10,4 @@
 
 5. Save the podfile
 
-6. In terminal, enter: pod install 
+6. In terminal, enter: pod install   
