@@ -11,3 +11,5 @@
 5. Save the podfile
 
 6. In terminal, enter: pod install   
+
+7. Navigate back to the project folder > select .workspace instead of original project > when you install cocoapods, you have to work from this file 
