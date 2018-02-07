@@ -67,6 +67,16 @@
       Ex. var fashionDesigners : [String : String] = ["Zac Posen" : "Fashion Designer", "Noon by Noor" : "Fashion Designer"]
       access value by using variable name[key] >> fashionDesigners["Zac Posen"] >> will return "Fashion Designer"
       
+  - Arrays and Dictionaries are known as "Collection Types" and they help you to organize data 
+  - If you have data that is sequential in nature, then you're going to want to organize that data into an Array
+  - If you have data that is NOT sequential, then you'll use a Dictionary (key-value pair structure)
+  
+12. What are API's? 
+  - Application Programming Interfaces 
+  - It is essentially a contract with rules that your app must follow in order to get the data from the website's server 
+  - These rules are pre-written and specified on the API's documentation - they include the things you need to provide, so that the API can deliver you
+  - You don't HAVE to use an API to get info from a website - you can program your app to look for specific information on a website, instead --- THE PROBLEM - is that if that website decided to change it's appearance, your program may not work - it won't know how to parse/interpret the data from that website 
+  - API is a "Request" > "Response" system
   
   
   
