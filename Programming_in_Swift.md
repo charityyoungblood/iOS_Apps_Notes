@@ -54,12 +54,19 @@
   - modeled by real-life dictionaries, where you have a word and an associated meaning 
   - in Programming, we use dictionaries to associate a key with its value, so that any value can be identified as long as you know the key 
       Ex. var fashion = ["Zac Posen" : "Fashion Designer"]
-  - Remember, when you create a dictionary, you can put in any number of key-value pairs - as long as they have the SAME data type 
+  - ** Remember, when you create a dictionary, you can put in any number of key-value pairs - as long as they have the SAME data type 
       Ex. Dictionary data types of [String : String] 
       or Dictionary [String : Int] 
       ** the data entered has to match the data types ** 
-  
-  
+  - In Swift, you can explicity state the data types in your dictionary, or let Swift infer
+      Ex. var bridalFashion = ["Berta" : "Bridal Fashion Designer"]
+        or var bridalFashion : [String : String] = ["Berta" : "Bridal Fashion Designer"]
+  - Dictionaries have to have unique keys, but can have the same value
+      Ex. var fashionDesigners = ["Zac Posen" : "Fashion Designer", "Noon by Noor" : "Fashion Designer"]
+  _ ** Remember, to access the values by key, use the variable name and bracket notation of the key name
+      Ex. var fashionDesigners : [String : String] = ["Zac Posen" : "Fashion Designer", "Noon by Noor" : "Fashion Designer"]
+      access value by using variable name[key] >> fashionDesigners["Zac Posen"] >> will return "Fashion Designer"
+      
   
   
   
