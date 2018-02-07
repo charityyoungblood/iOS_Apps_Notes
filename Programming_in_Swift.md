@@ -50,3 +50,54 @@
   - allows the built in Apple classes (i.e. CoreLocation) to access properties and send data to our ViewController, or designated delegate classes
   - the delegation pattern is similar to if your ViewController was raising it's hand saying "Hi, I'll be the delegate! I'll handle the data that comes through the locationManager"
   
+11. Swift Dictionaries 
+  - modeled by real-life dictionaries, where you have a word and an associated meaning 
+  - in Programming, we use dictionaries to associate a key with its value, so that any value can be identified as long as you know the key 
+      Ex. var fashion = ["Zac Posen" : "Fashion Designer"]
+  - Remember, when you create a dictionary, you can put in any number of key-value pairs - as long as they have the SAME data type 
+      Ex. Dictionary data types of [String : String] 
+      or Dictionary [String : Int] 
+      ** the data entered has to match the data types ** 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
