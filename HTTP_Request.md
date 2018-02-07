@@ -7,4 +7,8 @@
   - Browsers are able to manage these requests and responses 
   - Cocoapods >> Alamofire - this is a library of code that will help you make the HTTP requests and simplifying a lot of the networking calls for us
   - this library enables us to make a request with only a few lines of code, instead of having to worry about what to do if the server times out, or if there are connection issues - that is all handled by Alamofire 
+  - To make an HTTP Request using Alamofire:
+    - place "import Alamofire" at top of class, under "import UIKit"
+    - create a "Networking" function (i.e. func getWeatherData(), func getLocationData())
+    - depending on function type, enter necessary parameters (i.e. for getWeatherData(url: String, parameters: params))
     
