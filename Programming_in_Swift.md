@@ -40,3 +40,13 @@
 8. Properties vs Variables/Constants
   - when constants or variables are created inside of a class, they are called properties 
   - when constants or variables are created outside of a class, they are referred to as constants and variables
+
+9. GPS/Location Services 
+  - when setting latitude and longitude variables, XCode may request those values as "Strings"
+  - to change to String, add String keyword, and place code within parentheses: 
+     Ex.  let latitude = String(accurateLocation.coordinate.latitude)
+
+10. What is Delegation? 
+  - allows the built in Apple classes (i.e. CoreLocation) to access properties and send data to our ViewController, or designated delegate classes
+  - the delegation pattern is similar to if your ViewController was raising it's hand saying "Hi, I'll be the delegate! I'll handle the data that comes through the locationManager"
+  
