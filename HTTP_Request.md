@@ -11,4 +11,6 @@
     - place "import Alamofire" at top of class, under "import UIKit"
     - create a "Networking" function (i.e. func getWeatherData(), func getLocationData())
     - depending on function type, enter necessary parameters (i.e. for getWeatherData(url: String, parameters: params))
+    - in order to deal with the HTTP request you need to have some sort of response handling, i.e. what you do after request is made 
+      Ex. in Alamofire documentation > Usage > Making a Request - the import line goes at the top of your code file above the class declaration, the Alamofire.request line of code, goes into your func getWeatherData or getlocationData (see iOS Course: lecture 150) > Response Handling
     
