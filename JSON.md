@@ -9,4 +9,22 @@
   
 3. After you send the HTTP request (Ex: Alamofire.request)
   - create a constant > store the HTTP response value in this constant > inside the response, we want to tap into the result > the result has a few associated properties, we want the value
-    Ex: let weatherJSON : JSON = JSON(response.result.value) - ***REMEMEBR to convert data types, place data type (i.e. String, Int, JSON) then the value to convert, into parentheses
+    Ex: let weatherJSON : JSON = JSON(response.result.value!) - ***REMEMEBR to convert data types, place data type (i.e. String, Int, JSON) then the value to convert, into parentheses
+  - you can think of "response" - that is, what is received back as a response from the HTTP request, as a "package" 
+  - the ! after value is a "forced wrapping" which is ok, as long as you include a function to check for a "successful" response >> this is done here: 
+                  Alamofire.request(url, method: .get, parameters: parameters).responseJSON {
+                    response in
+                      if response.result.isSuccess{
+                        print("Success! Got the weather data")
+                      
+                        let weatherJSON : JSON = JSON(response.result.value!) - ignore grey color, this is NOT a comment
+                      }
+                      else {
+                        print("Error \(response.result.error)")
+                        
+                      }
+                      
+                      }
+4. To evaluate JSON code, go to www.jsoneditoronline.org
+   - this will display the JSON in a more "human readable" way 
+   - the system will structure the data into categories, including the number of objects and the key:value pairs 
