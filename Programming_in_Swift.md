@@ -78,6 +78,8 @@
   - You don't HAVE to use an API to get info from a website - you can program your app to look for specific information on a website, instead --- THE PROBLEM - is that if that website decided to change it's appearance, your program may not work - it won't know how to parse/interpret the data from that website 
   - API is a "Request" > "Response" system
   
+13. Closure - a function within a function > this is also noted by using the keyword "in" 
+  
   
   
   

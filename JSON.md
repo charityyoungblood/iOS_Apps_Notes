@@ -28,3 +28,6 @@
 4. To evaluate JSON code, go to www.jsoneditoronline.org
    - this will display the JSON in a more "human readable" way 
    - the system will structure the data into categories, including the number of objects and the key:value pairs 
+   - ** for most public API's, the data that you get back is most likely going to be formatted in JSON 
+5. The Alamofire method contains a "closure" - which is a function that is within a function
+   - Whenever you see the keyword "in" then you know you are inside a closure 
