@@ -82,6 +82,10 @@
   - whenever you are inside of a closure and want to call another function, you always have to declare "self" in front of the function call 
     Ex: self.updateWeatherData(json: weatherJSON)
   
+14. Converting data types (Type Conversion)
+  - use either dot notation or parenthesis to perform type conversion 
+    Ex: fashionDesigner.dress = Str(dressResult)
+        fashionDesigner.dress = dressResult.stringValue 
   
   
   
