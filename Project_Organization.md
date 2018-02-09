@@ -3,11 +3,9 @@
 1. Look up what type of framework/library/module iOS has to help implement your code 
   i.e. for tapping into the user's location - iPhone GPS - use CoreLocation
   
-<<<<<<< HEAD
 2. When creating your projects, think about how you want the data displayed - this will help you when you create your data models, as well as when you create objects from those models, and create your functions 
   
-=======
-2. Creating Data Models 
+3. Creating Data Models 
   - First, consider how the data you have gathered (via API or other source) will be displayed on screen (view), then create individual data models (classes) to represent the data you need to access 
   - The models will encaspulate properties >> For exmaple, in the WeatherDataModel you would store properties like, weather condition, temperature and city and you will use the model to update your app 
   - When creating the variables in your method, think about what properties are associated with the data
@@ -21,5 +19,10 @@
       Ex: class MusicLibrary > new instance would be let newMusic = MusicLibrary()
   - *** REMEMBER: to access class/data model properties in Swift, we use dot notation
       Ex: newMusic.songType or weatherData.temperature
-
-
+  - Depending on how you want your data displayed on the screen, you will set the instance variable + property to the data you want to present on screen 
+      Ex: func displayProducts(json: JSON){
+            let coatInventory = json["main"]["coats"]
+            productInventoryModel.coats = coatInventory
+            productInventoryModel.dresses = json["main"]["dressName"] >> this would pull the value of the json object with key "main" with key "dressName" 
+            productInventoryModel.shoes = json["main"]["shoes"][0]["id"].intValue >> this would pull the value of the json object within the key "main" with key "shoes" at index 0 with the key "id"
+            }
