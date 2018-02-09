@@ -43,8 +43,15 @@
     
             }
       
-      } 
-      
+          } 
+  
+4. When creating methods to update your UI (View) 
+   - ***REMEMBER: labels are of String data type - so if you are retrieving data from one of your data models that is not of String data type, you will have to convert it 
+    Ex: temperatureLabel.text = Str(weatherDataModel.temperature)
+    
+    
+5. Passing Data between ViewControllers 
+  - 
       
       
       

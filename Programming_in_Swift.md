@@ -86,6 +86,8 @@
   - use either dot notation or parenthesis to perform type conversion 
     Ex: fashionDesigner.dress = Str(dressResult)
         fashionDesigner.dress = dressResult.stringValue 
+        
+15. Creating Segues 
   
   
   
