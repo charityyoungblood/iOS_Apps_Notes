@@ -79,6 +79,8 @@
   - API is a "Request" > "Response" system
   
 13. Closure - a function within a function > this is also noted by using the keyword "in" 
+  - whenever you are inside of a closure and want to call another function, you always have to declare "self" in front of the function call 
+    Ex: self.updateWeatherData(json: weatherJSON)
   
   
   
