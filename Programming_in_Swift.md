@@ -80,6 +80,10 @@
   
 13. Closure - a function within a function > this is also noted by using the keyword "in" 
   
+14. Converting data types (Type Conversion)
+  - use either dot notation or parenthesis to perform type conversion 
+    Ex: fashionDesigner.dress = Str(dressResult)
+        fashionDesigner.dress = dressResult.stringValue 
   
   
   
