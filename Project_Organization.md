@@ -26,3 +26,46 @@
             productInventoryModel.dresses = json["main"]["dressName"] >> this would pull the value of the json object with key "main" with key "dressName" 
             productInventoryModel.shoes = json["main"]["shoes"][0]["id"].intValue >> this would pull the value of the json object within the key "main" with key "shoes" at index 0 with the key "id"
             }
+  - When working with data that includes id numbers, i.e. id 702 - dress, id 702 coat, use a switch statement for your control flow
+    - set the switch expression to the variable for id number, then adjust each case for a different return value, based on the id number 
+      Ex: function newDesignerIcon(designer: String) -> String {
+            switch(designer) {
+              case 0...10 : 
+               return "michael_kors" >> the string references an image, without the ".png" file type 
+              case 11...20 : 
+                return "michael_costello"
+              case 21...30 :
+                return "prada"
+              case 31...40 :
+                return "tadashi_shoji"
+              case 41...50 :
+                return "christian_siriano"
+    
+            }
+      
+      } 
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
