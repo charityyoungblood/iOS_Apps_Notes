@@ -108,6 +108,7 @@
       - set: if the Optional is in "set" state, it can have an associated value, which can be of any other type - including Optional, i.e. you can have an "Optional Optional"
   - Optionals have a ? on the end of the type 
       Ex: var currentTitle: String? { get }
+  - Optionals have an INITIAL value of "not set" or nil, which can of course be changed in your code/logic when writing your program
       
 18. Forced Unwrapping(!)
   - This is done to "force unwrap" an optional value's value 

@@ -42,9 +42,6 @@ There are two ways to make sure your app will display the same on any screen siz
   
   2. Using Auto Layout   
     - Pinning - also uses same four properties - x, y, width, height 
-<<<<<<< HEAD
-    - Aligning 
-=======
     - Aligning 
   
     ** Steps ** 
@@ -63,5 +60,6 @@ There are two ways to make sure your app will display the same on any screen siz
       
       g. Select "Add 4 constraints" on the bottom to save 
       
+  3. Using Labels - labels are "read only" text; they CANNOT be changed by the user 
    
->>>>>>> aae126215cc3b0745655284414a05317d12a86f9
+
