@@ -87,8 +87,19 @@
     Ex: fashionDesigner.dress = Str(dressResult)
         fashionDesigner.dress = dressResult.stringValue 
         
-15. Creating Segues 
-  
+15. Read Only - Apple Developer Documentation
+  - Whenever you see the { get } at the end of a Swift method, or variable declaration, this means it's "read only" 
+  - This means you can't change 
+    Ex: var currentTitle: String? { get }
+     - you can "get" the current title, but you can't set it using this method 
+     
+16. String Interpolation
+  - In Swift, we use \() for string interpolation
+  - instead of #{}, like in Ruby or %s, like in C
+  - Ex: let fashionDesigner = "Berta Bridal"
+        func bestBrialDesigner(){
+          print("The number one bridal designer is \(fashionDesigner)")
+        }
   
   
   
