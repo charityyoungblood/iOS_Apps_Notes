@@ -4,3 +4,5 @@
     - i.e. "\(myName), \(myAge)" would print Charity, 34
 
 3. Image names should be listed as strings
+
+4. In Swift, any time you declare a local variable or property, that is initialized at the beginning and never changes - i.e. it's a constant, use "let" keyword instead of "var"  
