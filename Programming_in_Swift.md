@@ -101,6 +101,18 @@
           print("The number one bridal designer is \(fashionDesigner)")
         }
         
+17. Optionals(?)
+  - In Swift, there is a type, like Int or Bool, called Optional
+  - This "Optional" type can only have two values:
+      - not set: which is expressed with the keyword "nil" > meaning, "this Optional is not set"  - there is no associated value because the value is not set 
+      - set: if the Optional is in "set" state, it can have an associated value, which can be of any other type - including Optional, i.e. you can have an "Optional Optional"
+  - Optionals have a ? on the end of the type 
+      Ex: var currentTitle: String? { get }
+      
+18. Forced Unwrapping(!)
+  - This is done to "force unwrap" an optional value's value 
+  - Use this with caution
+  - ONLY use this on Optional values, whose value is NOT "not set", i.e. the value is not, or will not be "nil"
   
   
   
