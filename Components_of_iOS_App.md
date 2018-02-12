@@ -37,6 +37,49 @@
     - There is limited communication FROM the View to the Controller 
     - The communication FROM the View TO the Controller is blind and structured: 
         - blind: since the objects in the View don't know what class they are talking to 
-        - structured: since there is no knowledge of the objects on either end, they have to communicate in a well defined/pre-defined way  
+        - structured: since there is no knowledge of the objects on either end, they have to communicate in a well defined/pre-defined way 
+        - one of the ways the View talks to the Controller is via target - action 
+            - The Controller hangs a target on itself, by defining a method with @IBAction
+            - When the View wants to talk to the Controller, it calls the method that was defined with @IBAction 
+        - another example of when the View talks TO the Controller is if there are other more complex actions, i.e. scrollView or zoom
+            - In this case, the View may need to tell the Controller that the user just started "scrolling" or the user is zooming in to a new zoom scale 
+            - The Controller would need to be notified of those actions because the Controller may need to "react" to those actions 
+        - another example of when the View talks TO the Controller, is when the View asks the Controller if it should allow something to happen (i.e. "should I allow vertical scrolling right now?") - this is accomplished with delegation
+          - the View will send messages with words like "should", "did" and "will" - these questions are asked via a delegate 
+    - The Controller sets itself as the View's delegate 
+          - a delegate is set via protocol 
+          - a protocol is a description of a bunch of methods that the other guy promises to implement 
+          - "data source" property on the View 
+    - The View does NOT own the data it's displaying > to access the data, the View asks the Controller 
+    - The Controller's job can be described as interpreting and formatting the Model data for the View
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
     
 
