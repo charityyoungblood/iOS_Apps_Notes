@@ -118,6 +118,15 @@
 19. Communication between Classes (Objects)
   - **REMEMBER: the way classes "speak" to each other, is by creating a variable equal to an instance of the class you want to communicate with 
     Ex: var bestDesigner : String = BestDesigner()
+    
+20. Dictinoary
+  - In Swift, a Dictionary is a type
+  - It is a GENERIC type > when you declare your Dictionary, you SPECIFY what TYPE the key:value pairs are 
+    - Ex: Dictionary syntax: var keyword, data type followed by <key,value> = [code]
+          var dresses: Dictionary<String,String> = [
+                "mermaid":"type of silhouette", 
+                "size":"size of dress"
+              ]
   
   
   
