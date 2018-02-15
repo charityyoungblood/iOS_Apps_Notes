@@ -115,6 +115,10 @@
   - Use this with caution
   - ONLY use this on Optional values, whose value is NOT "not set", i.e. the value is not, or will not be "nil"
   
+19. Communication between Classes (Objects)
+  - **REMEMBER: the way classes "speak" to each other, is by creating a variable equal to an instance of the class you want to communicate with 
+    Ex: var bestDesigner : String = BestDesigner()
+  
   
   
   

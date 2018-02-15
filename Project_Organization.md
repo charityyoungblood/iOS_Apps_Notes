@@ -50,8 +50,14 @@
     Ex: temperatureLabel.text = Str(weatherDataModel.temperature)
     
     
-5. Passing Data between ViewControllers 
-  - 
+5. XCode API 
+   - Public Methods: any class can call any of the methods in any of the classes we created **You DO NOT want to make ALL of your methods PUBLIC >> this can crash your app if the wrong class accesses a function/method that should not be called by that class 
+   - Private Methods: NO other classes can call private methods 
+      - this is implemented by adding the keyword "private" before the function or var keyword
+        Ex: private var fashionDesigner = "Zac Posen"
+            private func dressType(silhouette: String){
+              print("The \(silouette) is by (fashionDesigner).")
+            }
       
       
       

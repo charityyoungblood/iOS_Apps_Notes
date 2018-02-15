@@ -52,6 +52,10 @@
           - "data source" property on the View 
     - The View does NOT own the data it's displaying > to access the data, the View asks the Controller 
     - The Controller's job can be described as interpreting and formatting the Model data for the View
+    - The Model NEVER talks directly TO the Controller - because the Controller is the UI logic and the Model is UI independent, so there's no way the model would have anything to say to the Controller 
+    - If the Model has data that CHANGES, i.e. the Model is receiving data from a network, the Model sets up a "radio station" (Notification & KVO) Model to let the Controller ACCESS the data it needs, i.e. the Controller "tunes in" to the station
+      - all info on the radio station has nothing to do with the UI only with the data 
+    - On a large application, there are MULTIPLE MVC's working together to form one application - when multiple MVC's are connected, one MVC can only serve as the View to another MVC
             
             
             
