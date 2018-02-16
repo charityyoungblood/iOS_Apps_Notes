@@ -127,7 +127,26 @@
                 "mermaid":"type of silhouette", 
                 "size":"size of dress"
               ]
-  
+  - To access data in a Dictionary, use bracket notation 
+    Ex: dresses["mermaid"] would return "type of silhouette"
+    
+21. Enum 
+  - Has to have discrete values - meaning it can only take integer values
+  - Enums are similar to classes, as they can have methods (within the enum declaration)
+    Ex: enum DressSizes {
+        case FirstSize
+        case SecondSize
+        case ThirdsSize
+        
+        func newCoatSize() {
+          code 
+        }
+    }
+ 
+ - Enums can ONLY have COMPUTED PROPERTIES (not stored variables) - as the cases are the "stored" values 
+ - Enums CANNOT have inheritance > you cannot have an enum that inherits from another enum 
+ - Enums are passed by value data structure 
+    
   
   
   

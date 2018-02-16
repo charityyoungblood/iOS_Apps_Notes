@@ -58,6 +58,9 @@
             private func dressType(silhouette: String){
               print("The \(silouette) is by (fashionDesigner).")
             }
+            
+6. Auto Indent or Indent Multiple lines 
+  - Control + I > the control key, then the i 
       
       
       
