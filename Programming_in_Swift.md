@@ -131,6 +131,7 @@
     Ex: dresses["mermaid"] would return "type of silhouette"
     
 21. Enum 
+  - Is a data structure 
   - Has to have discrete values - meaning it can only take integer values
   - Enums are similar to classes, as they can have methods (within the enum declaration)
     Ex: enum DressSizes {
@@ -145,7 +146,21 @@
  
  - Enums can ONLY have COMPUTED PROPERTIES (not stored variables) - as the cases are the "stored" values 
  - Enums CANNOT have inheritance > you cannot have an enum that inherits from another enum 
- - Enums are passed by value data structure 
+ - Enums are passed by VALUE  
+ 
+ 22. Struct 
+  - Is a data structure 
+  - It is very much like a class, ALMOST identical 
+  - It can have variables, both STORED and COMPUTED PROPERTY
+  - Struct CANNOT have inheritance 
+  - Struct, like Enum, are passed by VALUE - where as classes are passed by REFERENCE
+    - passing something by REFERENCE means that that thing lives in the heap (memory) and when you pass it around to a method, you are essentially passing a "pointer" to it, not the ACTUAL thing
+    - passing by VALUE, means you are COPYING it 
+  - You do not have to set the variables you initialize in Struct to anything, unlike class 
+  
+23. Closures 
+  - An inline function that captures the state of its environment
+  - 
     
   
   
