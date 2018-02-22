@@ -1,7 +1,7 @@
 <!-- Terms -->
 
-1. IBOutlet - changes the appearance of the UI element (i.e. image)
-2. IBAction - this notifies the code when the UI element is interacted with 
+1. IBOutlet - creates an INSTANCE VARIABLE or PROPERTY and changes the appearance of the UI element (i.e. image) 
+2. IBAction - creates a METHOD and this notifies the code when the UI element is interacted with 
 3. ImageView - (label) can only change the appearance of this element - only has outlets
 4. Button - you can change both the appearance and notify the code when it is pressed/tapped - buttons have both outlets and actions
 

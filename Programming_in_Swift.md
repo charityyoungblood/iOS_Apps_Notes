@@ -160,7 +160,7 @@
   
 23. Closures 
   - An inline function that captures the state of its environment
-  - 
+  - Explanation at 1:08:57 in iOS Stanford Course - Lesson 2 
     
   
   
