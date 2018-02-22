@@ -1,3 +1,5 @@
+** TO CHANGE THE NAME OF VARIABLES/PROPERTIES: Click on property/variable name > right click while holding "Command" key > Select "rename" > rename variable/property 
+
 1. When creating functions, you have to declare data types in Swift 
 
   // create a function that takes in parameters: weight, height - return BMI
