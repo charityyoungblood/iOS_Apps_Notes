@@ -27,4 +27,10 @@
           }
       }
       
-6. 
+6. Property Observer - where the code inside of the brackets is observing changes of the code above
+  - On ANY property/variable, you can use "didSet" (similar to structure of "computed property") - it will execute the code inside the curly braces
+    Ex: var dressCount = 0 {
+        didSet {
+          dressCountLabel.text = "Dresses: \(dressCount)"
+        }
+    }
