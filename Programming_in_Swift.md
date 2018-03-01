@@ -163,7 +163,21 @@
 23. Closures 
   - An inline function that captures the state of its environment
   - Explanation at 1:08:57 in iOS Stanford Course - Lesson 2 
+  
+24. For Loops in Swift 
+  - They do not use variable i for a counter and increment 
+  - For loop Syntax 
+    Ex: for dress in allDresses {
+        dress.backgroundColor = white // colorLiteral represented in Swift by name or chart by entering "color" > color Literal
+    }
     
+  - You can use a For loop in Swift on anything that has a SEQUENCE -- this includes:
+    - Arrays 
+    - Strings 
+    - Countable Range: displayed with .. and starting number 
+        Ex: for identifier in 0..< numberOfPairsOfCards {
+            let card = Card(identifier: identifier) 
+        }  
   
   
   
