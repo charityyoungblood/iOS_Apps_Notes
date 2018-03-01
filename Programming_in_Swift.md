@@ -174,12 +174,15 @@
   - You can use a For loop in Swift on anything that has a SEQUENCE -- this includes:
     - Arrays 
     - Strings 
-    - Countable Range: displayed with .. and starting number 
+    - Countable Range: displayed with starting index .. (for 0 start) or ... (for "including" the last index) until (including or not including) end index 
         Ex: for identifier in 0..< numberOfPairsOfCards {
             let card = Card(identifier: identifier) 
         }  
   
-  
+25. "lazy" var 
+  - Since you have to initialize a variable before doing any operation on it in Swift, 
+  - if you make a "lazy var" - it will not initialize UNTIL someone uses it 
+  - lazy var CANNOT have a didSet {} property observer 
   
   
   
