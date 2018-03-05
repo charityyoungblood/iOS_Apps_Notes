@@ -21,3 +21,16 @@
 5. To go through tabs on the Utilities Pane (right side): Command + Option + 0, then one of the following:
     Command + Option + 1: File Inspector 
     Command + Option + 2: Quick Help Inspector 
+    
+6. To show Debugger: Command + Shift + y 
+
+7. To show Assistant Editor: Command + Option + Enter > Command + Enter (to go back to only ONE pane)
+
+8. In XCode > Preferences > Select "Uses Focused Editor" -- this is to allow code files to appear on either left or right window  
+
+9. To open a file in project: Command + Shift + O > then type name of file > Enter -- to open two files side by side, be sure the right, or left pane is "selected" first 
+
+10. For Easy Navigation of your files: 
+  - Add either // TODO or // MARK to your comments > XCode will provide points of reference for these spots in your code 
+  
+11. To properly Indent Your Project: Control + i
