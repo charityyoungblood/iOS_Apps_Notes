@@ -18,4 +18,6 @@
     Command + 8: Breakpoint Navigator  
     Command + 9: Report Navigator 
     
-5. 
+5. To go through tabs on the Utilities Pane (right side): Command + Option + 0, then one of the following:
+    Command + Option + 1: File Inspector 
+    Command + Option + 2: Quick Help Inspector 
