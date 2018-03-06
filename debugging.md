@@ -19,3 +19,18 @@
         p game 
         
 5. Connections Inspector: When you receieve a "key value compliant" error - be sure to look in your connections inpector first - check for spelling errors and what methods/variables are connected via IBOutlet and/or IBAction 
+
+6. If you still don't see any Exceptions or Error codes to help troubleshoot the error - you can use the Breakpoint tabs (these are the options next to the breakpoint key in the Debugger) - place Breakpoints within the method(s)
+  - Select "Step into" which is the arrow pointing down into a square (3rd option from right in debugger) - this will step into the other methods in the code
+  
+7. Variables View: left side of debugger console
+
+8. Debugger Console: right side (bottom right)
+
+9. Custom Behaviors can be set in: XCode > Preferences > Behaviors 
+
+10. Build Settings: Understand what goes on inside of Build Settings
+  - If we wanted to know what programming language we were using - this can be found in build settings 
+  - Familiarize yourself with each portion: Architecture, Assets, etc - Google each piece - note features 
+  
+11. Build Phases: This is where your soure files are - the code you've created  

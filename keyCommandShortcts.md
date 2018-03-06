@@ -21,6 +21,10 @@
 5. To go through tabs on the Utilities Pane (right side): Command + Option + 0, then one of the following:
     Command + Option + 1: File Inspector 
     Command + Option + 2: Quick Help Inspector 
+    Command + Option + 3: Identity Inspector 
+    Command + Option + 4: Attributes Inspector
+    Command + Option + 5: Size Inspector 
+    Command + Option + 6: Connections Inspector 
     
 6. To show Debugger: Command + Shift + y 
 

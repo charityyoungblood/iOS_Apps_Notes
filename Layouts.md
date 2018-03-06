@@ -61,5 +61,43 @@ There are two ways to make sure your app will display the same on any screen siz
       g. Select "Add 4 constraints" on the bottom to save 
       
   3. Using Labels - labels are "read only" text; they CANNOT be changed by the user 
+  
+  4. Using Stack View - When you have a set of buttons or "tiles" you want to FIRST, make buttons stick to the edges (no matter the screen size or screen view (landscape or portrait)), SECOND, we want to "group" buttons together - so that when the edges pull the buttons apart, they all share that space
+    - Stack View: is a class in iOS; used to group items together (stack) vertically or horizontally 
+    - You can place "stacks" on top of "Stacks"
+    - To create stack view, > select the items to group > select "imbed in stack" on bottom near the constraints buttons
+    - This will show the buttons on top of each other > To add spacing, control drag, to select set of buttons > Command + Option + 4 (for Attributes Inspector) > Select "Spacing" > Use Standard 
+    - Under "Distribution" option (above spacing option) > select "Fill Equally"
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
    
 
