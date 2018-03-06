@@ -68,6 +68,8 @@ There are two ways to make sure your app will display the same on any screen siz
     - To create stack view, > select the items to group > select "imbed in stack" on bottom near the constraints buttons
     - This will show the buttons on top of each other > To add spacing, control drag, to select set of buttons > Command + Option + 4 (for Attributes Inspector) > Select "Spacing" > Use Standard 
     - Under "Distribution" option (above spacing option) > select "Fill Equally"
+    
+  5. If you get an ERROR while using Stack View > Command + 0 to show Navigator Pane > Control + Option + o (to show Document Outline) > There should be a small yellow circle at top, next to View Controller > Click on yellow circle > XCode will offer hints/help to fix issue 
   
   
   

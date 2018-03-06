@@ -8,3 +8,10 @@
   - When you create an array, you have to specifiy what type of data is in the array so that Swift can breathe easy 
   - Since arrays are so common in Swift, their syntax doesn't include the name of the type, just the data enclosed in square brackets
       Ex: var cardButtons: [UIButton]!
+      
+4. Countable Range (Floating Point Numbers)
+  - When you are creating a for loop with Floating Points (decimals) for a "Countable Range" in Swift 
+    - We have to use the global function "STRIDE" 
+      Ex: for i in stride(from: 0.5, through: 15.25, by: 0.3) {
+        
+      }
