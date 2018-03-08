@@ -21,4 +21,12 @@
     
   - private: means it's internal implementation to this object, NO OTHER objects can call it - this will keep other programmers from accessing that code 
   
+  - private(set): this is ONLY for variables - this keyword means that SETTING this variable is PRIVATE but GETTING this variable is NOT PRIVATE 
   
+  - fileprivate: In a Swift file you CAN have multiple classes and structs, it does NOT have to be only one class per file - fileprivate means ANYTHING in that file can ACCESS each other's methods 
+  
+  - public: (this is for FRAMEWORK DEVELOPERS) this means that people OUTSIDE of the framework can call the methods and classes 
+  
+  - open: (this is for FRAMEWORK DEVELOPERS) not only can people outside your framework use this code, they can also SUBCLASS, OVERRIDE methods, etc - think of this as "wide open" 
+  
+## A good strategy for Access Control is put private on EVERYTHING! ## 
