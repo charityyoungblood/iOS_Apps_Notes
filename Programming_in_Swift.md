@@ -55,11 +55,13 @@
 11. Swift Dictionaries 
   - modeled by real-life dictionaries, where you have a word and an associated meaning 
   - in Programming, we use dictionaries to associate a key with its value, so that any value can be identified as long as you know the key 
-      Ex. var fashion = ["Zac Posen" : "Fashion Designer"]
-  - ** Remember, when you create a dictionary, you can put in any number of key-value pairs - as long as they have the SAME data type 
+      Ex. var fashion = ["Zac Posen" : "Fashion Designer"] >> Here "Zac Posen" is the "key" and "Fashion Designer" is the "value" 
+      
+  - ***REMEMBER, when you create a dictionary, you can put in any number of key-value pairs - as long as they have the SAME data type 
       Ex. Dictionary data types of [String : String] 
       or Dictionary [String : Int] 
       ** the data entered has to match the data types ** 
+      
   - In Swift, you can explicity state the data types in your dictionary, or let Swift infer
       Ex. var bridalFashion = ["Berta" : "Bridal Fashion Designer"]
         or var bridalFashion : [String : String] = ["Berta" : "Bridal Fashion Designer"]
@@ -72,6 +74,7 @@
   - Arrays and Dictionaries are known as "Collection Types" and they help you to organize data 
   - If you have data that is sequential in nature, then you're going to want to organize that data into an Array
   - If you have data that is NOT sequential, then you'll use a Dictionary (key-value pair structure)
+  - When structuring a Dictionary, remember the RETURN value will be OPTIONAL - since what we are looking up MAY NOT be in the Dictionary (iOS Stanford: Lecture 2 @52:30)
   
 12. What are API's? 
   - Application Programming Interfaces 
